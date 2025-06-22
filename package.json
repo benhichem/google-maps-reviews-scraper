@@ -1,0 +1,30 @@
+{
+  "name": "google-maps-reviews-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"pm2 start ecosystem.config.js --env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benhichem/google-maps-reviews-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benhichem/google-maps-reviews-scraper/issues"
+  },
+  "homepage": "https://github.com/benhichem/google-maps-reviews-scraper#readme",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.7",
+    "pm2": "^6.0.8",
+    "puppeteer": "^24.10.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-extra-plugin-user-preferences": "^2.4.1",
+    "typescript": "^5.8.3"
+  }
+}
